@@ -1,0 +1,23 @@
+import calendar
+
+Year = int(input("Enter Your Year:"))
+Month = int(input("Enter Your Month:"))
+
+cal=calendar.month(Year,Month)
+
+print(cal)
+
+
+
+
+# if we want to print only print year
+
+
+Year = int(input("Enter Your Year:"))
+
+cal=calendar.calendar(Year)
+
+print(cal)
+
+
+
