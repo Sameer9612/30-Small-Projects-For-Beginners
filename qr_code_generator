@@ -1,0 +1,6 @@
+import qrcode
+
+
+img = qrcode.make("linkedin.com/in/sameer-gautam-52030430b")
+
+img.save("sameer.jpg")
