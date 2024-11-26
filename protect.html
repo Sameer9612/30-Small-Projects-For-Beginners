@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copy Karke dikhao</title>
+</head>
+
+<body>
+    <h1>Please Don't Copy Content</h1>
+</body>
+
+<script>
+    document.addEventListener("copy", (event) => {
+        // Prevent copying
+        event.preventDefault();
+
+        // Optionally, show a message or alert if someone tries to copy
+        alert("Copying is not allowed on this page!");
+    });
+</script>
+
+</html>
